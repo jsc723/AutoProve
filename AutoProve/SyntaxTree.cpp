@@ -157,8 +157,8 @@ int TreeNode::pgen(int max_level, set<int> dep, vector<ProofLine> &proof) {
 
 end:
 	thinking_stack.pop_back();
-	delete and_left, and_right, if_node;
-	delete not_node, dnot_node;
+	//delete and_left, and_right, if_node;
+	//delete not_node, dnot_node;
 	//delete any;
 	if (result != -1) {
 		cout << repeatStr(" ", 20 - max_level) << "proved " << toString() << endl;
@@ -236,8 +236,8 @@ int CtdNode::pgen(int max_level, set<int> dep, vector<ProofLine> &proof) {
 			ctd_max_level++;
 			return proof.size() - 1;
 		}
-		delete pos;
-		delete neg;
+		// delete pos;
+		// delete neg;
 	}
 	proof = proof_copy;
 
@@ -251,7 +251,7 @@ int CtdNode::pgen(int max_level, set<int> dep, vector<ProofLine> &proof) {
 			ctd_max_level++;
 			return proof.size() - 1;
 		}
-		delete np;
+		// delete np;
 	}
 	proof = proof_copy;
 

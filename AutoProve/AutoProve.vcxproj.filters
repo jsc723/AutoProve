@@ -52,9 +52,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="README.md" />
+    <Text Include="..\tests\test.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\tests\test.txt" />
+    <None Include="..\README.md" />
   </ItemGroup>
 </Project>

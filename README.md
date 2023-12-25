@@ -53,3 +53,11 @@ P ^ R
 0,1,2          (14)    !!P                                     4,13 !I
 0,1,2          (15)    (P^R)                                   14,2 ^I
 ```
+
+## Limitations
+Notice that I have mentioned that this is just a toy. It at least has the following limitations:
+- *memory leak*: it *never* releases the memory of the raw pointers to allocates.
+- limited number of recursive calls
+- limited number of negative assumptions
+- not able to solve some kind of problems even if you think it should
+
