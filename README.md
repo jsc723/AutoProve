@@ -6,13 +6,14 @@ AutoProve.exe <input_file>
 
 ## Input File Format
 write propositions line by line, and the last line should be the conclusion to prove
-symbols shoud be "[A-Z][0-9]*"
-`v` is "or"
-`^` is "and" 
-`->` is "entails"
-`<->` is "equivalent"
-`/\` means "contradiction"
-example:
+- symbols shoud be "[A-Z][0-9]*"
+- `v` is "or"
+- `^` is "and" 
+- `->` is "entails"
+- `<->` is "equivalent"
+- `/\` means "contradiction"
+
+For example:
 ```
 (A v C) -> B
 C
