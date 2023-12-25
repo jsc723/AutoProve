@@ -1,5 +1,5 @@
 # AutoProve
-This is toy, which can automatically make first order logic proof, for limitied situations.
+This is a toy, which can automatically make first order logic proof, for limitied situations.
 
 ## Usage
 AutoProve.exe <input_file>
