@@ -56,7 +56,7 @@ P ^ R
 
 ## Limitations
 Notice that I have mentioned that this is just a toy. It at least has the following limitations:
-- *memory leak*: it *never* releases the memory of the raw pointers to allocates.
+- **memory leak**: it **never** releases the memory of the raw pointers it allocates.
 - limited number of recursive calls
 - limited number of negative assumptions
 - not able to solve some kind of problems even if you think it should
